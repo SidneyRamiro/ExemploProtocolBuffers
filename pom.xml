@@ -16,13 +16,15 @@
           <archive>
             <manifest>
               <mainClass>
-                br.ufs.dcomp.ExemploProtocolBuffers.ExemploSerializacao
+                br.ufs.dcomp.ExemploProtocolBuffers.ExemploDesserializacao
               </mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
+          <finalName>Desserializacao</finalName>
+          <appendAssemblyId>false</appendAssemblyId>
         </configuration>
       </plugin>
     </plugins>
